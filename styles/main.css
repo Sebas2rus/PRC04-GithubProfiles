@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+  --main-typography: 'Poppins', sans-serif;
+  --secondary-typography: 'Recursive', sans-serif;
+
+  /*  Font sizes */
+  --fs-1: 0.8rem;
+  --fs-2: 1rem;
+  --fs-3: 1.2rem;
+  --fs-4: 1.5rem;
+  --fs-5: 2rem;
+  --fs-6: 3rem;
+
+  /*  Colors */
+  --main-bg-color: #232830;
+  --main-color: #db4c3f;
+  --main-color-fill: rgba(219, 76, 63, 0.4);
+  --secondary-color: #ff7575;
+  --gray-1: #4d4d4d;
+  --gray-2: #c4c4c4;
+  --card-p-color: #0f1217;
+  --white: #f3f3f3;
+
+  /*  Mixins */
+  --mobile: 480px;
+  --tablet: 768px;
+  --smallPc: 1024px;
+  --pc: 1200px;
+}
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  /* background-color: var(--main-bg-color) ; 
+  color: var(--main-color); */
+  font-family: var(--main-typography);
+  overflow: hidden;
+}
