@@ -2,7 +2,6 @@ export async function getData(username) {
     try {
         const res = await fetch(`https://api.github.com/users/${username}`)
         const user = await res.json();
-        console.log(user);
         return user;
     } catch (error) {
         return 'not found';
@@ -14,4 +13,3 @@ export async function getData(username) {
     // document.getElementById('portfolio').innerHTML = user.bio;
     // document.getElementById('image').src = user.avatar_url;
 }
-// console.log(getData('sebas2rus'));
