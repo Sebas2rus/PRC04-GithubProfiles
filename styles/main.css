@@ -102,6 +102,32 @@
   opacity: 0.3;
 }
 
+.found {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../assets/images/fondo1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 20%;
+}
+
+.searchFound {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  padding: 0.7rem 1rem;
+  border-radius: 0.8rem;
+  background-color: var(--white);
+  width: fit-content;
+  margin: 1.1em;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (min-width: 768px) {
   .test {
     width: 20rem;
