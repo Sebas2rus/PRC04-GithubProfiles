@@ -11,8 +11,8 @@
     <title>Search</title>
   </head>
   <body>
-    <section class="container">
-      <form class="search" id="searchForm">
+    <section class="container" id="searchView">
+      <form class="searchInput" id="searchForm">
         <input
           class="test"
           type="text"
@@ -23,6 +23,55 @@
         />
         <i class="bi bi-search"></i>
       </form>
+    </section>
+
+    <div class="notFoundView" id="notFoundView">
+      <section class="container">
+        <form class="searchInput" id="searchFormii">
+          <input
+            class="test"
+            type="text"
+            name="search"
+            id="searchii"
+            placeholder="Search Github User"
+            autocomplete="off"
+          />
+          <i class="bi bi-search"></i>
+        </form>
+        <div class="notFound">
+          <h3 class="textNotFound">Sorry, user don't found</h3>
+          <p class="descriptionNotFound">The user you request could not be found</p>
+        </div>
+      </section>
+
+      <div class="wrapper"></div>
+    </div>
+
+    <section class="found" id="foundView">
+      <form class="searchFound" id="searchFormi">
+        <input
+          class="test"
+          type="text"
+          name="search"
+          id="searchi"
+          placeholder="Search Github User"
+          autocomplete="off"
+        />
+        <i class="bi bi-search"></i>
+      </form>
+
+      <div class="info">
+        <a>
+          <img id="image" class="image" width="80" height="190" />
+        </a>
+
+        <div class="data">
+          <h3 id="name"></h3>
+          <h4 id="username"></h4>
+          <p id="bio" class="description"></p>
+          <a id="portfolio">Blog</a>
+        </div>
+      </div>
     </section>
 
     <script type="module" src="src/main.js"></script>
