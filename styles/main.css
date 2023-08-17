@@ -208,14 +208,12 @@
   .searchFound {
     padding: 0.9rem 1.3rem;
     margin: 2rem;
-    border: 1px solid red;
     right: 0;
     width: fit-content;
     display: flex;
     height: 2.5rem;
 
     .test {
-      border: 1px solid blue;
       max-width: 15rem;
     }
   }
